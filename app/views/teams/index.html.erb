@@ -1,0 +1,6 @@
+<h1>Teams</h1>
+  <% @teams.each do |team|%>
+    <h2>State: <%= team['state'] %></h2>
+    <h2>Team name: <%= team['team'] %></h2>
+    <h3>City: <%= team['city'] %></h3>
+  <% end %>
